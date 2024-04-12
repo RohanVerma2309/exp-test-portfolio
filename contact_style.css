@@ -1,0 +1,124 @@
+*{
+  box-sizing: border-box; 
+}
+body{
+  margin: 0px;
+  padding: 0px;
+  font: poppins;
+}
+#main{
+  width: 100%;
+  height: 28vh;
+  position: relative; 
+  background-image: url("https://image.shutterstock.com/image-illustration/3d-render-abstract-black-crystal-260nw-617240192.jpg");
+  background-color: white;
+}
+.rv{
+  height: 230px;
+  padding-top: 5px;
+  padding-right: 500px;
+  padding-left: 30px;
+  padding-bottom: 15px;
+}
+nav{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.Menu{
+  list-style: none;
+  display: flex;
+  color: black;
+}
+.Menu li a{
+  height: 60px;
+  line-height: 50px;
+  margin: 12px;
+  padding: 0px 22px;
+  display: flex;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  font-weight: 550;
+  color: white;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+a{
+  text-decoration: none;
+}
+
+.button{
+  width: 148px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;;
+background-color: rgb(14, 39, 94);  border-radius: 50px;
+}
+.button:hover{
+  background-color: rgb(14, 39, 94);
+  color: white;
+  box-shadow: 14px 12px 14px black;
+  transition: all ease 0.2s;
+}
+.content{
+  width: 100%;
+  height: 72%;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  color: rgb(200, 255, 252);
+  background: rgb(14, 39, 94);
+}
+.content h1{
+  font-size: 5em;
+  font-family: sans-serif, 'Times New Roman', Times, serif;
+  padding-left: 380px;
+  text-shadow: 8px 8px black;
+}
+.content h5{
+  font-size: 1.29em;
+  justify-content: center;
+  align-content: center;
+  position: relative;
+  top: -10%;
+  text-align: center;
+  color: rgb(255, 213, 75);
+}
+.content .log_buttons{
+  width:100%;
+  justify-content: space-around;
+  align-content: center;
+
+}
+.content .linked{
+  height: 100px;
+  padding-left: 500px;
+}
+li{
+  list-style: none;
+}
+
+.content .mail{
+  height: 100px;
+  padding-left: 120px;
+}
+
+.content .call{
+  height: 100px;
+  padding-left: 490px;
+}
+.content .contact #email{
+  padding-left: 60px;
+}
+.content .contact #number{
+  padding-left: 970px;
+}
+.content .contact{
+  font-size: 1.1em;
+}

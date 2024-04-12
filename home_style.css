@@ -1,0 +1,154 @@
+*{
+  box-sizing: border-box; 
+}
+body{
+  margin: 0px;
+  padding: 0px;
+  font: poppins;
+}
+#main{
+  width: 100%;
+  height: 28vh;
+  position: relative; 
+  background-image: url("https://image.shutterstock.com/image-illustration/3d-render-abstract-black-crystal-260nw-617240192.jpg");
+  background-color: white;
+}
+.rv{
+  height: 230px;
+  padding-top: 5px;
+  padding-right: 500px;
+  padding-left: 30px;
+  padding-bottom: 15px;
+}
+nav{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.Menu{
+  list-style: none;
+  display: flex;
+  color: black;
+}
+.Menu li a{
+  height: 60px;
+  line-height: 50px;
+  margin: 12px;
+  padding: 0px 22px;
+  display: flex;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  font-weight: 550;
+  color: white;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+a{
+  text-decoration: none;
+}
+
+.button{
+  width: 148px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: rgb(14, 39, 94);
+  border-radius: 50px;
+}
+.button:hover{
+  background-color: rgb(14, 39, 94);
+  color: white;
+  box-shadow: 14px 12px 14px black;
+  transition: all ease 0.2s;
+}
+.content{
+  width: 100%;
+  height: 200%;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  color: rgb(200, 255, 252);
+  background: rgb(14, 39, 94);
+}
+.content h1{
+  font-size: 5em;
+  font-family: sans-serif, 'Times New Roman', Times, serif;
+  padding-left: 250px;
+  text-shadow: 8px 8px black;
+}
+.content h5{
+  font-size: 1.29em;
+  justify-content: center;
+  align-content: center;
+  position: relative;
+  top: -3%;
+  text-align: center;
+  color: rgb(255, 213, 75);
+}
+.content .edu .uni_logo{
+  padding-left: 20px;
+  padding-bottom: 50px;
+  height: 300px;
+}
+.content .edu h2{
+  font-size: 3em;
+  text-decoration-line: underline;
+  text-shadow: 7px 0px black;
+}
+.content .edu h3{
+  font-size: 1.5em;
+}
+.content .edu{
+  justify-content: space-around;
+  display: flex;
+}
+li{
+  list-style: none;
+}
+.content .coding .coder_logo{
+  height: 280px;
+  padding-top: 60px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.content .coding{
+  padding-top: 100px;
+  justify-content: space-around;
+  display: flex;
+}
+.content .coding h2{
+  padding-top: 20px;
+  font-size: 3em;
+  text-decoration-line: underline;
+  text-align: right;
+  text-shadow: 7px 0px black;
+}
+.content .coding h3{
+  font-size: 1.5em;
+  text-align: right;
+}
+
+.content .hobby .hobby_logo{
+  height: 300px;
+  padding-left: 20px;
+}
+.content .hobby{
+  padding-top: 120px;
+  justify-content: space-around;
+  display: flex;
+}
+.content .hobby h2{
+  padding-top: 20px;
+  font-size: 3em;
+  text-decoration-line: underline;
+  text-shadow: 7px 0px black;
+}
+.content .hobby h3{
+  font-size: 1.5em;
+}
